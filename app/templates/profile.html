@@ -1,0 +1,44 @@
+
+
+
+
+{% extends "base.html" %}
+
+{% block main %}
+
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename="app.css") }}">
+<div class="grid-container">
+<div class = "first">
+<img src="{{url_for('static', filename='naptural85_holiday_0.jpg')}}" />
+<h1> Junelle Wilmot- Simpson </h1>
+<p>@junelle-ws</p>
+<p>Portmore,Jamaica</p>
+<p>{{ date }}</p>
+</div>
+<div class= "second">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec massa erat, hendrerit </p> 
+<div id = item1>
+    
+<div class= "sub_item1">
+<div>7</div>
+<div> Posts</div>
+</div>
+<div class = " sub_item2 ">
+<div>7</div>
+<p>Following </p>
+</div>
+<div class = "sub_item3 ">
+<div>7</div>
+<p> Followers </p>
+</div>
+
+
+
+
+
+</div> 
+
+
+<button> Follow </button>
+
+{% endblock %}

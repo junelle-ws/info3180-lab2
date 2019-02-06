@@ -1,0 +1,59 @@
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+ flex-direction: column ; 
+ 
+  max-width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 25px;
+   
+}
+.first{
+    background-color: #994c35;
+   
+    text-align: center;
+    color:white;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px;
+    padding: 50px;
+    
+}
+.second{
+    background-color: #d1d1d1;
+    text-align: center;
+    color:grey;
+     border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    padding: 60px;
+   
+}
+
+img {
+  border-radius: 50%;
+  max-width: 40%;
+  max-height:40%;
+}
+button{
+    border-radius: 8px;
+    background-color:  #3c953a ;
+    width:30% ;
+    height:20%;
+}
+
+#item1 {
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.sub_item1{
+    padding:20px;
+}
+.sub_item2{
+    padding:20px;
+}
+.sub_item3{
+    padding:20px;
+}
